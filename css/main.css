@@ -50,7 +50,7 @@ section {
 }
 
 header {
-    background: linear-gradient(#4D3084, rgb(59, 24, 120, .7));
+    background: #3B1878;
     display:block;
     position: fixed;
     width: 100%;
@@ -58,6 +58,10 @@ header {
     margin: 0px;
     padding: 15px;
     margin-top: -8.5rem;
+    
+}
+.lunes-nav-shadow {
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
 }
 
 header a{
@@ -852,6 +856,11 @@ ul.lSGallery {
         line-height: 22px;
         
         -webkit-font-smoothing: antialiased;
+    }
+    footer {
+        
+        font-size: 1em;
+       
     }
     p {
         letter-spacing:2px;
